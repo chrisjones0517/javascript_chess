@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Chess app</h1>
+    <!-- <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)" style="height:80px; border:2px solid black">
+    </div>
+    <img id="drag1" src="white_pawn.png" draggable="true" ondragstart="drag(event)" width="50" height="69"> -->
+    <div id="board-container">
+        <div>
+            <h5>Score: <span id="score"></span></h5>
+        </div>
+        <div id="choose-piece-wt" class="menu">
+            <img id="wq" class="select" src="white_queen.png" alt="white queen">
+            <img id="wr" class="select" src="white_rook.png" alt="white rook">
+            <img id="wb" class="select" src="white_bishop.png" alt="white bishop">
+            <img id="wn" class="select" src="white_knight.png" alt="white knight">
+        </div>
+        <table id="board">
+        </table>
+        <div id="choose-piece-bk" class="menu">
+            <img id="bq" class="select" src="black_queen.png" alt="black queen">
+            <img id="br" class="select" src="black_rook.png" alt="black rook">
+            <img id="bb" class="select" src="black_bishop.png" alt="black bishop">
+            <img id="bn" class="select" src="black_knight.png" alt="black knight">
+        </div>
+        <button id="reset">Reset</button>
+        <button id="side">Play as Black</button>
+        <button id="start">Start Game</button>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

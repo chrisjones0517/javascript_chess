@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(90, 137, 141);
+}
+
+#board {
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+#board-container {
+    text-align: center;
+}
+
+td {
+    height: 6vw;
+    width: 6vw;
+    text-align: center;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+.piece {
+    width: 4.5vw;
+}
+
+.piece:hover {
+    cursor: pointer;
+}
+
+button {
+    margin: 3rem;
+    font-size: 1.5rem;
+}
+
+.select {
+    width: 7vw;
+    border: 5px solid transparent;
+}
+
+.select:hover {
+    cursor: pointer;
+    background-color: #ff0000;
+}
+
+.menu {
+    display: none;
+    width: 50vw;
+    margin: auto;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1200px) {
+    td {
+        width: 10vw;
+        height: 10vw;
+    }
+    .piece {
+        width: 7vw;
+    }
+    button {
+        margin: 1rem;
+    }
+    .menu {
+        width: 82vw;
+    }
+    .select {
+        width: 10vw;
+    }
+}
